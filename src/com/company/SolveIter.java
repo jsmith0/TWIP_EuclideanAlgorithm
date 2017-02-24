@@ -14,6 +14,14 @@ public class SolveIter {
                 System.out.println("Your GCD is: " + b);
                 break;
             }
+            else if (b == 1) {
+                System.out.println("There is no GCD");
+                break;
+            }
+            else if (a == 1){
+                System.out.println("There is no GCD");
+                break;
+            }
             else {
                 int rem = a % b;
                 a = b;

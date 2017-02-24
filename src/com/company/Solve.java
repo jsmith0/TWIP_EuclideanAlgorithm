@@ -13,6 +13,13 @@ public class Solve {
             System.out.println("Your GCD is: " + b);
 
         }
+        else if (b == 1) {
+            System.out.println("There is no GCD");
+        }
+        else if (a == 1){
+            System.out.println("There is no GCD");
+
+        }
         else{
             int rem = a % b;
             a = b;
